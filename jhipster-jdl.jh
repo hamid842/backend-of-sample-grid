@@ -1,0 +1,19 @@
+entity Category {
+	id Number,
+    name String
+}
+entity Product {
+	id Number,
+productName String
+}
+
+relationship OneToMany {
+	Category to Product
+}
+
+paginate all with pagination 
+
+
+service all with serviceImpl 
+
+
